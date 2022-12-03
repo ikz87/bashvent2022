@@ -30,5 +30,4 @@ do
     roundpoints=$(( self + 1 + 3 * result ))
     score=$(( score + roundpoints ))
     echo "current score is $score"
-
 done < ./input;
